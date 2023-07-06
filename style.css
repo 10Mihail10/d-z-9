@@ -1,0 +1,171 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+.container {
+  /* Ширина контейнерa*/
+  width: 1170px;
+  /* Автоматическая высота для автоматического определения высоты контейнера в зависимости от его содержимого */
+  height: auto;
+  /* Внутренний отступ между этими красными колонками */
+  padding: 0px 15px;
+
+  margin: 0 auto;
+}
+/*  Мы отключаем точки из всех списков ul, они не нужны */
+ul {
+  list-style: none;
+}
+/* Отключение подчеркивания ссылок */
+a {
+  text-decoration: none;
+}
+/* Делаем логотип как на макете */
+.logo-header-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Прописываем свойства для всех элементов списка неву */
+.nav-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+/* Пропишем ховер */
+.nav-list-item:hover {
+  color: #2196f3;
+}
+/* Прописываем свойства элементов списка контактов */
+.contacts-list-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  color: #757575;
+}
+/* Такжe пропишем ховер */
+.contacts-list-item:hover {
+  color: #2196f3;
+}
+/* Пропишем свойства для заголовка  */
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* Добавление свойств кнопки */
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+/* скрываемм текст в h2 */
+.subtitle {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* Мы прописываем свойства для 4 наших блоков с нашими качествами */
+.frame-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* А також для 4 підзаголовками */
+.frame-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Тепер пропишемо для заголовку де буде інший блок з фото */
+.our-job-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* А теперь о заголовке для другого блока с фотографиями кого-то */
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* Теперь добавим свойства для ФИ под фотографией  */
+.titlename {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* А теперь для должности */
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Добавим в футерe свойства для физ. адреса */
+.footer-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+/* А также свойства для телефона и почты */
+.footer-subtitle1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.qualities-list {
+  display: flex;
+}
+.qualities-list-item {
+  margin: 30px;
+}
+.our-job-photo-list {
+  display: flex;
+}
+.our-job-photo-list-item {
+  margin: 30px;
+}
